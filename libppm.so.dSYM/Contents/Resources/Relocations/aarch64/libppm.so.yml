@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     libppm.so
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _ppm_image_init, symObjAddr: 0x0, symBinAddr: 0x3DAC, symSize: 0x5C }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _ppm_image_init, symObjAddr: 0x0, symBinAddr: 0x3DAC, symSize: 0x5C }
+  - { offsetInCU: 0xAD, offset: 0xAD, size: 0x8, addend: 0x0, symName: _ppm_image_release, symObjAddr: 0x5C, symBinAddr: 0x3E08, symSize: 0x38 }
+  - { offsetInCU: 0xD6, offset: 0xD6, size: 0x8, addend: 0x0, symName: _ppm_image_dump, symObjAddr: 0x94, symBinAddr: 0x3E40, symSize: 0xF0 }
+...

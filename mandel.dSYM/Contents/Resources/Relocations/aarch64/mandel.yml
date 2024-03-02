@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     mandel
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _getcol, symObjAddr: 0x0, symBinAddr: 0x100003B84, symSize: 0x10C }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _cx, symObjAddr: 0x10C, symBinAddr: 0x100003C90, symSize: 0x24 }
+  - { offsetInCU: 0x71, offset: 0x71, size: 0x8, addend: 0x0, symName: _cy, symObjAddr: 0x130, symBinAddr: 0x100003CB4, symSize: 0x24 }
+  - { offsetInCU: 0xA5, offset: 0xA5, size: 0x8, addend: 0x0, symName: _getcol, symObjAddr: 0x0, symBinAddr: 0x100003B84, symSize: 0x10C }
+  - { offsetInCU: 0x25F, offset: 0x25F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x154, symBinAddr: 0x100003CD8, symSize: 0x278 }
+...
